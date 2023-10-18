@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Logo </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- offcanvas  -->
+    <button
+      class="btn btn-primary"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasID"
+    >
+      check me
+    </button>
+    <div class="offcanvas offcanvas-start" id="offcanvasID">
+      <div class="offcanvas-header">
+        <h5>offcanvas-header</h5>
+        <button
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+          iste hic at necessitatibus temporibus commodi est culpa non corrupti
+          eos. Dolores illo at corrupti asperiores velit quam, ipsa eaque harum.
+        </p>
+      </div>
+    </div>
+
+    <!-- pagination  -->
+    <ul class="pagination">
+      <li class="page-item">
+        <a href="" class="page-link">previous</a>
+      </li>
+      <li class="page-item">
+        <a href="" class="page-link">1</a>
+      </li>
+      <li class="page-item">
+        <a href="" class="page-link">2</a>
+      </li>
+      <li class="page-item">
+        <a href="" class="page-link">3</a>
+      </li>
+      <li class="page-item">
+        <a href="" class="page-link">next</a>
+      </li>
+    </ul>
+    <!-- animation  -->
+    <div class="placeholder-glow">
+      <span class="placeholder col-12 bg-info"></span>
+    </div>
+    <!-- popover  -->
+    <button
+      type="button"
+      class="btn btn-secondary"
+      data-bs-container="body"
+      data-bs-toggle="popover"
+      data-bs-placement="top"
+      data-bs-content="Top popover"
+    >
+      Popover on top
+    </button>
+    <button
+      type="button"
+      class="btn btn-secondary"
+      data-bs-container="body"
+      data-bs-toggle="popover"
+      data-bs-placement="right"
+      data-bs-content="Right popover"
+    >
+      Popover on right
+    </button>
+    <button
+      type="button"
+      class="btn btn-secondary"
+      data-bs-container="body"
+      data-bs-toggle="popover"
+      data-bs-placement="bottom"
+      data-bs-content="Bottom popover"
+    >
+      Popover on bottom
+    </button>
+    <button
+      type="button"
+      class="btn btn-secondary"
+      data-bs-container="body"
+      data-bs-toggle="popover"
+      data-bs-placement="left"
+      data-bs-content="Left popover"
+    >
+      Popover on left
+    </button>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- making table  -->
+    <div class="container mt-4">
+      <table class="table table-hover table-bordered">
+        <thead>
+          <tr class="table-primary">
+            <th>NAME</th>
+            <th>Roll</th>
+            <th>Department</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Raisa</th>
+            <td>2003</td>
+            <td>CSE</td>
+          </tr>
+          <tr>
+            <th>Raisa</th>
+            <td>2003</td>
+            <td>CSE</td>
+          </tr>
+          <tr>
+            <th>Raisa</th>
+            <td>2003</td>
+            <td>CSE</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script>
+      const popoverTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="popover"]'
+      );
+      const popoverList = [...popoverTriggerList].map(
+        (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+      );
+    </script>
+  </body>
+</html>

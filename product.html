@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>ecommerce website single product</title>
+  </head>
+  <body>
+    <div class="top-nav-bar">
+      <div class="search-box">
+        <i class="fa-solid fa-bars" id="menu-bar" onclick="openmenu()"></i>
+        <i
+          class="fa-regular fa-circle-xmark"
+          id="close-bar"
+          onclick="closemenu()"
+        ></i>
+        <a href="index3.html"><img src="images/logo.png" class="logo" /></a>
+        <input type="text" class="form-control" />
+        <span class="input-group-text">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </span>
+      </div>
+      <div class="menu-bar col-md-1">
+        <ul>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-basket-shopping mr-2"></i> cart</a
+            >
+          </li>
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Log In</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- single product  -->
+    <section class="single-product">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div
+              id="product-slider"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/t-1.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/t-2.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/t-3.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/t-4.jpg" class="d-block w-100" />
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#product-slider"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#product-slider"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <p class="new-arrival text-center">New</p>
+            <h2>Men's t-shirt</h2>
+            <p>Product code:tshirt1234</p>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <p class="price">USD $100.00</p>
+            <p><b>Availability: </b> In Stock</p>
+            <p><b>Condition: </b> New</p>
+            <p><b>Size: </b> XL,XXL,L,M</p>
+            <p><b>Brand: </b> YZX Company</p>
+            <label>Quantity:</label>
+            <input type="text" value="1" />
+            <button type="button" class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product description   -->
+    <section class="product-description">
+      <div class="container">
+        <h6>Product Description :</h6>
+        <p>
+          The t-shirt-<br />
+          is comfortable and casual because it is loose-fitting. is People’s
+          favorite because of dark colors. wears well on anyone because of 100%
+          cotton. is extra durable because of double-needle stitches and hems.
+          is unique because customizable.
+        </p>
+        <hr />
+      </div>
+      <div class="container">
+        <div class="title-box">
+          <h2>Similar</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="product-top">
+              <img src="images/mac-l.webp" />
+              <div class="overlay-right">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title=" Quick Shop"
+                >
+                  <i class="fa fa-eye"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title=" Add to Wish List"
+                >
+                  <i class="fa fa-heart"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title=" Add to Cart"
+                >
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-stroke"></i>
+              <h3>Shoes</h3>
+              <h5>$200.00</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-top">
+              <img src="images/w-2.jpg" class="Laptop" />
+              <div class="overlay-right">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title=" Quick Shop"
+                >
+                  <i class="fa fa-eye"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title=" Add to Wish List"
+                >
+                  <i class="fa fa-heart"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title=" Add to Cart"
+                >
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-stroke"></i>
+              <h3>Leather Watch</h3>
+              <h5>$100.00</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-top">
+              <img src="images/s-2.jpg" />
+              <div class="overlay-right">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title="Quick Shop"
+                >
+                  <i class="fa fa-eye"> </i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title=" Add to Wish List"
+                >
+                  <i class="fa fa-heart"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title=" Add to Cart"
+                >
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <div class="product-bottom text text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-stroke"></i>
+              <h3>Formal Shoes</h3>
+              <h5>$250</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-top">
+              <img src="images/t-5.jpg" />
+              <div class="overlay-right">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title=" Quick Shop"
+                >
+                  <i class="fa fa-eye"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title=" Add to Wish List"
+                >
+                  <i class="fa fa-heart"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title=" Add to Cart"
+                >
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <h3>Black t-shirt</h3>
+              <h5>$65.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-3">
+            <h1>Useful Links</h1>
+            <p>Privacy Policy</p>
+            <p>Tearms of Use</p>
+            <p>Return Policy</p>
+            <p>Discount Coupons</p>
+          </div>
+          <div class="col-md-3">
+            <h1>Company</h1>
+            <p>About Us</p>
+            <p>Contact Us</p>
+            <p>Career</p>
+            <p>Affiliate</p>
+          </div>
+          <div class="col-md-3">
+            <h1>Follow us on</h1>
+            <p><i class="fa-brands fa-facebook"></i>Facebook</p>
+            <p><i class="fa-brands fa-youtube"></i>You-tube</p>
+            <p><i class="fa-brands fa-linkedin"></i>Linked-in</p>
+            <p><i class="fa-brands fa-instagram"></i>Instagram</p>
+          </div>
+          <div class="col-md-3 footer-image">
+            <h1>Download App</h1>
+            <img src="images/logo2.png" class="logo2" />
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Made by Risha Monmon Shetol</p>
+      </div>
+    </section>
+    <script>
+      function openmenu() {
+        document.getElementById("side-menu").style.display = "block";
+        document.getElementById("menu-bar").style.display = "none";
+        document.getElementById("close-bar").style.display = "block";
+      }
+      function closemenu() {
+        document.getElementById("side-menu").style.display = "none";
+        document.getElementById("menu-bar").style.display = "block";
+        document.getElementById("close-bar").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
